@@ -1,3 +1,9 @@
 @import "tailwindcss";
 @import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
+
+@layer utilities {
+    .bg-panel-blue {
+         background-color: rgba(50, 96, 211, 0.9);
+    }
+}
